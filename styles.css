@@ -1,0 +1,167 @@
+/* -------------------MAIN PAGE BODY------------------- */
+body {
+    background: #e7d5d3;
+    /* #bbd3b5 */
+}
+
+/* -------------------MAIN PAGE CONTAINER------------------- */
+.container {
+    margin: 15px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* -------------------HEADERS------------------- */
+
+h1 {
+    text-align: center;
+    font-family: "Roboto Mono", "Times New Roman", serif;
+    /* font-style: normal; */
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Atma", "Times New Roman", serif;
+    font-weight: 500;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+    font-family: "Courgette", "Times New Roman", serif;
+    font-weight: 400;
+}
+
+/* -------------------MAIN TEXT SECTION(S)------------------- */
+
+p {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+span {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+/* -------------------TEXT LINK(S)------------------- */
+
+a {
+    text-decoration: none;
+    font-family: "Dancing Script", serif;
+    color: rgb(26, 85, 139);
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(206, 93, 200);
+}
+
+/* -------------------FOOTER------------------- */
+
+footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: smaller;
+    font-style: italic;
+}
+
+/* -------------------BUTTON(S)------------------- */
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1.5px solid #e7d5d3;
+    background: white;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    transition: all 150ms ease-in-out;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button:hover {
+    background: #e7d5d3;
+    cursor: pointer;
+}
+
+.theme-btn {
+    font-size: 11px;
+    background: black;
+    color: white;
+    padding: 5 8px;
+}
+
+.theme-btn:hover {
+    color: black;
+    background: white;
+    border: 1.5px solid white;
+}
+
+/* -------------------IMAGES AND GRID------------------- */
+
+img {
+    max-width: 100%;
+}
+
+.grid {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 8px;
+    transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+    transform: scale(2);
+}
+
+/* -------------------INTO IMAGE/LINK------------------- */
+
+.intro-artwork-digital {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.intro-artwork-digital:hover {
+    filter: contrast(85%);
+    transform: scale(1.1);
+}
+
+/* -------------------DARK THEME------------------- */
+
+.darkTheme {
+    /* background: linear-gradient(
+      135.8deg,
+      rgb(0, 0, 0) 40%,
+      rgb(50, 15, 25) 75%,
+      rgb(68, 20, 30) 100%
+    ); */
+    background: black;
+    color: white;
+}
+
+.darkTheme .container {
+    background: rgb(37, 35, 37);
+}
+
+.darkTheme a {
+    color: rgb(206, 93, 200);
+}
+
+.darkTheme a:hover {
+    color: rgb(55, 138, 216);
+}
